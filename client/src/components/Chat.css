@@ -1,0 +1,33 @@
+.Chat {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    align-items: stretch;
+}
+
+.Chat-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 0.95;
+    overflow-y: scroll;
+}
+.Chat-messages span { /* chat message */
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.Chat-input {
+    flex: 0.05;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: stretch;
+}
+.Chat-input input {
+    flex: 0.95;
+}
+.Chat-input button {
+    flex: 0.05;
+}
